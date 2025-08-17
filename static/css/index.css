@@ -133,5 +133,57 @@ body {
   font-size: smaller;
 }
 
+/* GIF Grid Layout Styles */
+.gif-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gif-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.gif-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.gif-image:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.gif-item .subtitle {
+  margin-top: 10px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Overview Figure Styles */
+.overview-image-container {
+  padding: 20px;
+}
+
+.overview-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+}
+
+.overview-image-container p {
+  margin-top: 15px;
+  font-style: italic;
+}
+
 
 
