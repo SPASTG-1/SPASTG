@@ -199,7 +199,7 @@
     <!-- Image -->
     <div class="has-text-centered">
       <div class="overview-image-container">
-        <img src="static/images/SPATSG_FRAME.png" alt="SPATSG Framework Overview" class="overview-image"/>
+        <img src="static/images/SPATSG_FRAME.jpg" alt="SPATSG Framework Overview" class="overview-image"/>
         <p class="is-size-7 has-text-grey-light mt-2">SPATSG Framework Overview</p>
       </div>
     </div>
@@ -212,23 +212,64 @@
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Experimental Results</h2>
     
-    <!-- Table 1 -->
+    <!-- Introduction -->
+    <p class="is-size-5 has-text-centered has-text-grey-dark mb-5">
+      SPATSG demonstrates superior performance in both open-loop and closed-loop testing scenarios, 
+      achieving significant improvements in efficiency and effectiveness metrics across various evaluation criteria.
+    </p>
+    
+    <!-- Table 1: Open-loop test results -->
     <div class="results-table-container">
-      <h3 class="title is-4 has-text-centered">Table 1: Open-loop test results</h3>
-      <img src="static/images/table1.png" alt="Open-loop test results" class="results-table-image"/>
+      <h3 class="title is-4 has-text-centered mb-4">
+        Table 1: Open-loop test results on occlusion-triggered scenarios
+      </h3>
+      <div class="table-image-wrapper">
+        <img src="static/images/table1.png" alt="Open-loop test results table" class="results-table-image"/>
+      </div>
+      <p class="is-size-7 has-text-grey-light has-text-centered mt-3">
+        Performance comparison on occlusion-triggered scenario generation tasks. 
+        Higher ESS and CR values indicate better performance, while lower minGL and IR@15/30 values are preferred.
+      </p>
     </div>
     
-    <!-- Table 2 -->
+    <!-- Table 2: Closed-loop test results -->
     <div class="results-table-container mt-6">
-      <h3 class="title is-4 has-text-centered">Table 2: Closed-loop test results</h3>
-      <img src="static/images/table2.png" alt="Closed-loop test results" class="results-table-image"/>
+      <h3 class="title is-4 has-text-centered mb-4">
+        Table 2: Closed-loop test results on occlusion-triggered scenario generation
+      </h3>
+      <div class="table-image-wrapper">
+        <img src="static/images/table2.png" alt="Closed-loop test results table" class="results-table-image"/>
+      </div>
+      <p class="is-size-7 has-text-grey-light has-text-centered mt-3">
+        Evaluation results across different System Under Test (SUT) configurations, 
+        demonstrating SPATSG's robustness and effectiveness in real-world testing environments.
+      </p>
     </div>
     
     <!-- Results Summary -->
-    <div class="results-summary">
-      <h3 class="title is-4">Key Results</h3>
-      <!-- 三个关键结果的高亮展示 -->
-    </div>
+    <!-- <div class="results-summary mt-6">
+      <h3 class="title is-4 has-text-centered">Key Findings</h3>
+      <div class="columns is-multiline is-centered">
+        <div class="column is-4">
+          <div class="result-highlight">
+            <h4 class="title is-5 has-text-primary">ESS Performance</h4>
+            <p class="is-size-6">SPATSG achieves the highest ESS scores across all test scenarios, indicating superior semantic controllability.</p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="result-highlight">
+            <h4 class="title is-5 has-text-success">Efficiency Gains</h4>
+            <p class="is-size-6">Significantly improved minGL and IR@15/30 metrics, demonstrating better computational efficiency.</p>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="result-highlight">
+            <h4 class="title is-5 has-text-info">Robustness</h4>
+            <p class="is-size-6">Consistent performance across different SUTs and test conditions, showing strong generalization capability.</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
 </section>
 
